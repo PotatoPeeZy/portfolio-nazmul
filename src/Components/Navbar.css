@@ -1,0 +1,14 @@
+.container-fluid {
+  background-color: rgba(0, 0, 255, 0.25);
+  height: 6rem;
+}
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+.offcanvas {
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: rgba(0, 0, 255, 0.116);
+}

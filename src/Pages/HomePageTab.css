@@ -1,0 +1,13 @@
+.homepagetab {
+  margin-top: 6rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+.nav {
+  justify-content: center;
+}
+.nav-link-tab {
+  color: white;
+}

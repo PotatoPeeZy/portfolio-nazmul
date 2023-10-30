@@ -1,0 +1,7 @@
+import React from "react";
+import "./Skills.css";
+function Skills() {
+  return <div className="skills">Skills Works</div>;
+}
+
+export default Skills;
