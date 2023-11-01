@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Portfolio
+          Portfolio of MD. Nazmul Hossain Shishir
         </a>
         <button
           className="navbar-toggler"
@@ -25,7 +25,7 @@ function Navbar() {
         >
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              Portfolio
+              Portfolio of MD. Nazmul Hossain Shishir
             </h5>
             <button
               type="button"

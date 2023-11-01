@@ -1,16 +1,18 @@
 {
-  "name": "Md. Nazmul Hossain Shishir",
-  "phone": "+880-1792-438135",
-  "email": {
-    "email1": "nazmul.hossain.shishir14@gmail.com",
-    "email2": "nazmul.nubtk@gmail.com"
-  },
-  "country": "Bangladesh",
-  "address": "NL-100, Noyabati, Khalishpur, Khulna",
-  "gender": "Male",
-  "website": "https://www.facebook.com/PotatoPeeZy/",
-  "nid": "1954599872",
-  "religion": "Islam",
-  "DOB": "February 5, 1999",
-  "blood": "AB+"
+  "general": {
+    "name": "Md. Nazmul Hossain Shishir",
+    "phone": "+880-1792-438135",
+    "email": {
+      "email1": "nazmul.hossain.shishir14@gmail.com",
+      "email2": "nazmul.nubtk@gmail.com"
+    },
+    "country": "Bangladesh",
+    "address": "NL-100, Noyabati, Khalishpur, Khulna",
+    "gender": "Male",
+    "website": "https://www.facebook.com/PotatoPeeZy/",
+    "nid": "1954599872",
+    "religion": "Islam",
+    "DOB": "February 5, 1999",
+    "blood": "AB+"
+  }
 }

@@ -15,42 +15,52 @@ function General() {
         <tbody>
           <tr>
             <td>Name</td>
-            <td>{data.name}</td>
+            <td>{data.general.name}</td>
           </tr>
           <tr>
             <td>Date of Birth</td>
-            <td>{data.DOB}</td>
+            <td>{data.general.DOB}</td>
           </tr>
           <tr>
             <td>Gender</td>
-            <td>{data.gender}</td>
+            <td>{data.general.gender}</td>
           </tr>
           <tr>
             <td>Email</td>
-            <td>{data.email.email1}</td>
+            <td>{data.general.email.email1}</td>
           </tr>
           <tr>
             <td>Phone</td>
-            <td>{data.phone}</td>
+            <td>{data.general.phone}</td>
           </tr>
           <tr>
             <td>Permanent Address</td>
-            <td>{data.address}</td>
+            <td>{data.general.address}</td>
           </tr>
           <tr>
             <td>NID</td>
-            <td>{data.nid}</td>
+            <td>{data.general.nid}</td>
           </tr>
           <tr>
             <td>Religion</td>
-            <td>{data.religion}</td>
+            <td>{data.general.religion}</td>
           </tr>
           <tr>
             <td>Blood</td>
-            <td>{data.blood}</td>
+            <td>{data.general.blood}</td>
           </tr>
         </tbody>
       </table>
+      <div className="card">
+        <img
+          className="image img-thumbnail"
+          src={process.env.PUBLIC_URL + "/General.png"}
+          alt="NH Shishir"
+        />
+        <div className="card-body">
+          ⓘ At Northern University of Business and Technology
+        </div>
+      </div>
     </div>
   );
 }

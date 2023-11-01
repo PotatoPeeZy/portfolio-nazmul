@@ -1,3 +1,17 @@
 .photo-gallery {
   margin-top: 7rem;
 }
+.d-block {
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 45rem;
+  max-width: min-content;
+  border-radius: 20px;
+}
+.carousel-inner {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.575);
+  border-radius: 50px;
+}

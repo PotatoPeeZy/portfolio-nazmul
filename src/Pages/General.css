@@ -1,3 +1,27 @@
 .general {
   margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.image {
+  border-radius: 50%;
+}
+.image:hover {
+  box-shadow: 0 0 5px black;
+}
+.card-body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: min-content;
+}
+.card:hover {
+  box-shadow: 0 0 5px black;
+}
+.card {
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
