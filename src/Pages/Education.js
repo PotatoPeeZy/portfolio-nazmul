@@ -21,6 +21,7 @@ function Education() {
             <th scope="col">Out Of</th>
             <th scope="col">Subject / Department</th>
             <th scope="col">Passing Year</th>
+            <th scope="col">College / University</th>
           </tr>
         </thead>
         <tbody>
@@ -30,6 +31,7 @@ function Education() {
             <td>{data.education.psc.outOf}</td>
             <td></td>
             <td>{data.education.psc.year}</td>
+            <td>{data.education.psc.school}</td>
           </tr>
           <tr>
             <th scope="row">Junior School Certificate</th>
@@ -37,6 +39,7 @@ function Education() {
             <td>{data.education.jsc.outOf}</td>
             <td></td>
             <td>{data.education.jsc.year}</td>
+            <td>{data.education.jsc.school}</td>
           </tr>
           <tr>
             <th scope="row">Secondary School Certificate</th>
@@ -44,6 +47,7 @@ function Education() {
             <td>{data.education.ssc.outOf}</td>
             <td>{data.education.ssc.subject}</td>
             <td>{data.education.ssc.year}</td>
+            <td>{data.education.ssc.school}</td>
           </tr>
           <tr>
             <th scope="row">Higher Secondary Certificate</th>
@@ -51,6 +55,7 @@ function Education() {
             <td>{data.education.hsc.outOf}</td>
             <td>{data.education.hsc.subject}</td>
             <td>{data.education.hsc.year}</td>
+            <td>{data.education.hsc.school}</td>
           </tr>
           <tr>
             <th scope="row">Bachelor in Science</th>
@@ -58,6 +63,7 @@ function Education() {
             <td>{data.education.bsc.outOf}</td>
             <td>{data.education.bsc.subject}</td>
             <td>{data.education.bsc.year}</td>
+            <td>{data.education.bsc.school}</td>
           </tr>
         </tbody>
       </table>

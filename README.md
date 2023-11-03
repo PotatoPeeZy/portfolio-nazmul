@@ -38,25 +38,41 @@ You can clone the repository using Git:
 ```bash
 git clone https://github.com/PotatoPeeZy/portfolio-nazmul.git
 cd portfolio-nazmul
+```
 
 Navigate to the project directory and install the required dependencies:
 
+```bash
 # Using npm
 npm install
+```
 
-# Using Yarn
+#### Using Yarn
+
+```bash
 yarn
 Starting the Development Server
+```
+
 Once the dependencies are installed, you can start the development server:
 
-# Using npm
-npm start
+#### Using npm
 
-# Using Yarn
+```bash
+npm start
+```
+
+#### Using Yarn
+
+```bash
 yarn start
+```
+
 The development server will start, and the app will be accessible in your browser at http://localhost:3000.
 
-Customizing Your Profile
+##Customizing Your Profile
+
+```
 Open the project in your code editor.
 
 Navigate to the src/data directory, where you'll find JSON files containing sample data. Replace this data with your personal information, skills, experience, and project details.
@@ -66,10 +82,15 @@ You can also customize the app's appearance and layout by modifying the componen
 Add your own images by placing them in the public/images directory.
 
 Update the app title and description in the public/index.html file.
+```
 
-Deployment
+## Deployment
+
 You can deploy this app to your preferred hosting service, such as Netlify, Vercel, or GitHub Pages. Follow the deployment instructions provided by your chosen platform to make your personal profile accessible online.
 
-License
+###License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+```
+
 ```
