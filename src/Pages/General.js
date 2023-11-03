@@ -7,10 +7,10 @@ function General() {
       <table
         className="table
          table-dark
-       table-bordered 
-       border-black 
-       table-hover 
-       table-striped-columns"
+        table-bordered 
+        border-black 
+        table-hover 
+        table-striped-columns"
       >
         <tbody>
           <tr>
@@ -27,7 +27,11 @@ function General() {
           </tr>
           <tr>
             <td>Email</td>
-            <td>{data.general.email.email1}</td>
+            <td>
+              <a href={data.general.email.email1}>
+                nazmul.hossain.shishir14@gmail.com
+              </a>
+            </td>
           </tr>
           <tr>
             <td>Phone</td>

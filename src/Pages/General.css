@@ -3,6 +3,9 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .image {
   border-radius: 50%;
@@ -20,8 +23,27 @@
   box-shadow: 0 0 5px black;
 }
 .card {
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
+  border-top-right-radius: 500px;
+  border-top-left-radius: 500px;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: rgb(173, 206, 255);
+}
+.table {
+  overflow: hidden;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .general {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: 250px;
+  }
 }

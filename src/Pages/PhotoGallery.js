@@ -4,7 +4,11 @@ import "./PhotoGallery.css";
 function PhotoGallery() {
   return (
     <div className="photo-gallery">
-      <div id="carouselExampleCaptions" className="carousel slide">
+      <div
+        id="carouselExampleCaptions"
+        className="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div className="carousel-indicators">
           <button
             type="button"
@@ -92,130 +96,130 @@ function PhotoGallery() {
             <img
               src={process.env.PUBLIC_URL + photos.url.photo1}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Final Thesis and Project Presentation day at NUBTK</p>
+              <p>{photos.label.photo1}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo2}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Thesis Paper Submit day at NUBTH With mother</p>
+              <p>{photos.label.photo2}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo3}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Lunch at Wendys Food Court, Gollamari</p>
+              <p>{photos.label.photo3}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo4}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Dinner at Wendys food court.</p>
+              <p>{photos.label.photo4}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo5}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>At Pasta Express, New Market</p>
+              <p>{photos.label.photo5}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo6}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Selfie at Home.</p>
+              <p>{photos.label.photo6}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo7}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Selfie in front of my Desktop Setup</p>
+              <p>{photos.label.photo7}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo8}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>At Hadis Park, Khulna with Tuba Takowa.</p>
+              <p>{photos.label.photo8}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo9}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Returning from Jashore with family in Rupsa Express.</p>
+              <p>{photos.label.photo9}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo10}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Selfie at rooftop of the House.</p>
+              <p>{photos.label.photo10}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo11}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Wedding Ceremony at Platinum Jubilee Officers Club.</p>
+              <p>{photos.label.photo11}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo12}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>At Liberty Cinema Hall.</p>
+              <p>{photos.label.photo12}</p>
             </div>
           </div>
           <div className="carousel-item">
             <img
               src={process.env.PUBLIC_URL + photos.url.photo13}
               className="d-block w-100"
-              alt="Photo 1"
+              alt="Gallery"
             />
             <div className="carousel-caption d-none d-md-block">
-              <p>Posing in front of the Nagar Bhaban at Hadis Park, Khulna</p>
+              <p>{photos.label.photo13}</p>
             </div>
           </div>
           <button

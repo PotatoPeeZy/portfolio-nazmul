@@ -14,5 +14,35 @@
     "religion": "Islam",
     "DOB": "February 5, 1999",
     "blood": "AB+"
+  },
+  "education": {
+    "psc": {
+      "result": "485 Marks",
+      "outOf": "600 Marks",
+      "year": "2009"
+    },
+    "jsc": {
+      "result": "GPA 4.50",
+      "outOf": "GPA 5.00",
+      "year": "2012"
+    },
+    "ssc": {
+      "result": "GPA 5.00",
+      "outOf": "GPA 5.00",
+      "subject": "Science",
+      "year": "2015"
+    },
+    "hsc": {
+      "result": "GPA 4.75",
+      "outOf": "GPA 5.00",
+      "subject": "Science",
+      "year": "2017"
+    },
+    "bsc": {
+      "result": "CGPA 3.49",
+      "outOf": "CGPA 4.00",
+      "subject": "Computer Science and Engineering",
+      "year": "2022"
+    }
   }
 }
